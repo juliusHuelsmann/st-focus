@@ -48,3 +48,11 @@ other applications, but keep the benefits of the st alpha aptches, have a look a
 file](https://github.com/juliusHuelsmann/Config/blob/master/.config/picom/picom.conf),
 in which opacity management configured to be performed by `st`.
 
+
+
+# Authors / Contributers
+* Julius Hülsmann - <juliusHuelsmann [at] gmail [dot] com>
+* [glpub](https://github.com/glpub): Fix: erroneous color reset
+* [Milos Stojanovic](https://github.com/M4444): Code Formatting
+* [Yui](https://github.com/yuwui): Fix spelling errors
+
