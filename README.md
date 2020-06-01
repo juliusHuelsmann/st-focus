@@ -80,17 +80,14 @@ active-opacity = 0.8;
 to your `picom` configuration file and keep a vanilla `st` build.
 
 If you want to configure `inactive-opacity` and `active-opacity` rules in order to apply opacity to
-other applications, but keep the benefits of the st alpha aptches, have a look at
+other applications, but keep the benefits of the st alpha patches, have a look at
 [this picom configuration
 file](https://github.com/juliusHuelsmann/Config/blob/master/.config/picom/picom.conf),
 in which opacity management configured to be performed by `st`.
-
-
 
 # Authors / Contributors
 * Julius Hülsmann - <juliusHuelsmann [at] gmail [dot] com>
 * [glpub](https://github.com/glpub): Fix: erroneous color reset
 * [Milos Stojanovic](https://github.com/M4444): Code Formatting
 * [Yui](https://github.com/yuwui): Fix spelling errors
-
 
