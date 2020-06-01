@@ -10,13 +10,13 @@ Please [leave a star](https://github.com/juliusHuelsmann/st-focus).
 
 ## Contributions & Bug Reports
 * [Report / Solve Patching issues](https://github.com/juliusHuelsmann/st) with a new version of `st`
-* [Contributions and other Bug reports](https://github.com/juliusHuelsmann/st-focus)
+* [Contributions and Bug reports](https://github.com/juliusHuelsmann/st-focus)
 
 ## Building, customizing and installing the patch
 **1. Optional Dependencies**
 The opacity functionality of this patch requires an `X composite manager` (e.g. `picom`, `compton`,
-`xcompmgr`), which can for instance be installed via `sudo pacman -S picom` on Arch Linux.
-*The composite manager has to be launched after booting*.
+`xcompmgr`), which can for instance be installed via `sudo pacman -S picom` on Arch Linux and
+launched via `picom -b`.  *The composite manager has to be relaunched after booting*.
 
 **2. Applying the patch**
 Apply the patch to `st`'s source code and build code via `patch < [PATCH_NAME]`
@@ -35,8 +35,8 @@ check out [this repository](https://github.com/juliusHuelsmann/st), which contai
 merged version of this patch with a reasonable configuration.
 
 The patch comes
-1. with the alpha patch pre-applied (`alpha + focus`) or
-2. for patching on to of an already applied alpha patch (`focus`)
+1. merged into the alpha patch (`alpha + focus`) or
+2. for patching on top of an already applied alpha patch (`focus`)
 
 I recommend downloading the alpha patch from the
 [alpha patch](https://st.suckless.org/patches/alpha/) page and using `Patch: focus`, that way you
@@ -62,7 +62,7 @@ Please report an Issue or contribute a merged patch in that case.
 
 
 ## MISC
-**Note** The benefit of the `alpha` patch and the `Alpha Focus Highlight` patch are the ability to
+**Note:** The benefit of the `alpha` patch and the `Alpha Focus Highlight` patch are the ability to
 restrict the transparency only to the background color currently in use, hence keeping the font in
 the foreground solid and readable.
 
