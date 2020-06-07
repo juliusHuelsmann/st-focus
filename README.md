@@ -68,10 +68,10 @@ the foreground solid and readable.
 
 If the goal is to apply transparency independent on the content, you do not require any patch for
 `st`, instead add
-```bash
+`
 inactive-opacity = 0.2;
 active-opacity = 0.8;
-```
+`
 to your `picom` configuration file and keep a vanilla `st` build.
 
 If you want to configure `inactive-opacity` and `active-opacity` rules in order to apply opacity to
@@ -85,4 +85,4 @@ in which opacity management configured to be performed by `st`.
 * [glpub](https://github.com/glpub): Fix: erroneous color reset
 * [Milos Stojanovic](https://github.com/M4444): Code Formatting
 * [Yui](https://github.com/yuwui): Fix spelling errors
-* Authors of the shipped alpha patch: [Eon S. Jeon](esjeon@hyunmu.am), [pr](protodev@gmx.net), [Laslo Hunhold](dev@frign.de), [Ivan J.](parazyd@dyne.org), [Matthew Parnell](matt@parnmatt.co.uk), [Johannes Mayrhofer](jm.spam@gmx.net), [Àlex Ramírez](aramirez@posteo.net)
+* Authors of the shipped alpha patch: [Eon S. Jeon](mailto:esjeon@hyunmu.am), [pr](mailto:protodev@gmx.net), [Laslo Hunhold](mailto:dev@frign.de), [Ivan J.](mailto:parazyd@dyne.org), [Matthew Parnell](mailto:matt@parnmatt.co.uk), [Johannes Mayrhofer](mailto:jm.spam@gmx.net), [Àlex Ramírez](mailto:aramirez@posteo.net)
