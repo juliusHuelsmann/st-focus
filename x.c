@@ -1755,7 +1755,7 @@ focus(XEvent *ev)
 		if (!focused) {
 			focused = 1;
 			xloadcols();
-			redraw();
+			tfulldirt();
 		}
 	} else {
 		if (xw.ime.xic)
@@ -1766,7 +1766,7 @@ focus(XEvent *ev)
 		if (focused) {
 			focused = 0;
 			xloadcols();
-			redraw();
+			tfulldirt();
 		}
 	}
 }
