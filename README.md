@@ -85,7 +85,7 @@ in which opacity management configured to be performed by `st`.
 
 # Authors / Contributors
 * Julius Hülsmann - <juliusHuelsmann [at] gmail [dot] com>
-* [Wim Stockman](wim@yasendfile.org): Fix erroneous color reset
+* [Wim Stockman](https://github.com/wimstockman): Fix erroneous color reset
 * [glpub](https://github.com/glpub): Fix erroneous color reset
 * [Milos Stojanovic](https://github.com/M4444): Code Formatting
 * [Yui](https://github.com/yuwui): Fix spelling errors
